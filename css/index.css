@@ -356,7 +356,7 @@ a.action_container:link {
         order: 3;
         width: 100%;
         min-width: 0;
-        height: 40px;
+        height: 50px;
     }
 
     .search_input {
