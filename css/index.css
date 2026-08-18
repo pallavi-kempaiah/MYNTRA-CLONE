@@ -330,7 +330,7 @@ a.action_container:link {
     color:black;
 }
 /* ================================
-   MOBILE RESPONSIVE DESIGN
+   MOBILE RESPONSIVE - HOME PAGE
    ================================ */
 
 @media (max-width: 768px) {
@@ -343,6 +343,7 @@ a.action_container:link {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        align-items: center;
         gap: 10px;
     }
 
@@ -354,12 +355,12 @@ a.action_container:link {
         height: 38px;
     }
 
-    /* Hide desktop navigation on mobile */
+    /* Hide desktop navigation */
     .nav_bar {
         display: none;
     }
 
-    /* Search takes full width */
+    /* SEARCH BAR */
     .search_bar {
         order: 3;
         width: 100%;
@@ -372,7 +373,7 @@ a.action_container:link {
         width: 100%;
     }
 
-    /* Actions */
+    /* ACTION ICONS */
     .action_bar {
         margin-right: 0;
         min-width: auto;
@@ -392,7 +393,7 @@ a.action_container:link {
         font-size: 11px;
     }
 
-    /* PRODUCT CONTAINER */
+    /* PRODUCTS */
     .items-container,
     .category-items {
         width: 100%;
@@ -406,8 +407,8 @@ a.action_container:link {
     /* PRODUCT CARD */
     .item-container {
         width: 100%;
-        margin: 0;
         min-width: 0;
+        margin: 0;
     }
 
     .item-image {
@@ -469,5 +470,4 @@ a.action_container:link {
         font-size: 11px;
         padding: 12px;
     }
-
 }
