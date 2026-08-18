@@ -457,4 +457,30 @@ a.action_container:link {
         font-size: 11px;
         padding: 12px;
     }
+    /* PRODUCTS - MOBILE */
+
+.items-container {
+    width: 100%;
+    margin: 20px 0;
+    padding: 0 10px;
+
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: space-between !important;
+    align-items: flex-start;
+}
+
+.items-container .item-container {
+    width: 48% !important;
+    max-width: 48% !important;
+    min-width: 0 !important;
+    margin: 0 0 20px 0 !important;
+    flex: 0 0 48% !important;
+}
+
+.items-container .item-image {
+    width: 100% !important;
+    height: auto;
+    display: block;
+}
 }
