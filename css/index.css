@@ -139,7 +139,6 @@ header {
     padding: 0px 15px;
     border: 1px solid black;
     min-width: 250px;
-    flex-grow: 0.2;
 }
 
 .search_input {
